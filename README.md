@@ -10,6 +10,10 @@ This repository comes from some notes that I've taken in the e-learning course: 
     2. [Understanding "let" and "const"](/chapters/02_NEXT_GEN_JS.md#understanding-let-and-const)
     3. [Arrow functions](chapters/02_NEXT_GEN_JS.md#arrow-functions)
     4. [Export & imports (modules)](chapters/02_NEXT_GEN_JS.md#export--imports-modules)
+
+**=====  I'M HERE 👋🏽 =====**
+
+
 3. The basics
 4. Debugging
 5. Styling components
