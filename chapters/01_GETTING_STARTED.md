@@ -1,6 +1,6 @@
 # Getting started
 
-In this chapter or section the teacher talks about the following points:
+In this chapter or section the teacher talks a brief introduction of ReactJS following next points:
 - What is ReactJS? https://reactjs.org/
 - Why?
 - React alternatives
