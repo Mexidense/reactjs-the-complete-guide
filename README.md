@@ -5,7 +5,7 @@ This repository comes from some notes that I've taken in the e-learning course: 
 # Table of contents
 
 1. [Getting started](/chapters/01_GETTING_STARTED.md)
-2. [Refreshing Next generation JS](/chapters/02_Next_Gen_JS.md)
+2. [Refreshing Next generation JS](/chapters/02_NEXT_GEN_JS.md)
 3. The basics
 4. Debugging
 5. Styling components
