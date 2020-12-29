@@ -164,3 +164,15 @@ const filter = (...args) => {
 
 console.log(filter(1, 2, 3)); // It just returns element number one
 ```
+
+## Destructuring
+Extract array elements or object properties and store them in variables.
+```ecmascript 6
+// Array elements
+[, goodbye, name] = ['Hello', 'Bye', 'Salva'];
+console.log(goodbye + ' ' + name);
+
+// Object properties
+({ name } = { name: 'Salva', age: '30' });
+console.log(name);
+```
