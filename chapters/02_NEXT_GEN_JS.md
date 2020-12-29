@@ -110,3 +110,28 @@ const person = new Person();
 person.printMyName();
 person.printGender();
 ```
+
+## Classes, properties and methods
+In Next generation JS, you can use properties/methods like "attached" variables inside classes/objects: 
+```ecmascript 6
+class Human {
+    gender = 'X';
+    
+    printGender = () => console.log(this.gender)
+}
+class Person extends Human {
+    constructor() {
+        super();
+        name = 'Salva';
+        gender = 'male';
+    }
+    
+    printMyName = () => {
+        console.log(this.name);
+    }
+}
+
+const person = new Person();
+person.printMyName();
+person.printGender();
+```

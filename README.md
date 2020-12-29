@@ -11,6 +11,7 @@ This repository comes from some notes that I've taken in the e-learning course: 
    3. [Arrow functions](chapters/02_NEXT_GEN_JS.md#arrow-functions)
    4. [Export & imports (modules)](chapters/02_NEXT_GEN_JS.md#export--imports-modules)
    5. [Classes](chapters/02_NEXT_GEN_JS.md#classes)
+   6. [Classes, properties and methods](chapters/02_NEXT_GEN_JS.md#classes-properties-and-methods)
 
 **=====  I'M HERE 👋🏽 =====**
 
