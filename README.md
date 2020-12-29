@@ -14,6 +14,7 @@ This repository comes from some notes that I've taken in the e-learning course: 
    6. [Classes, properties and methods](chapters/02_NEXT_GEN_JS.md#classes-properties-and-methods)
    7. [Spread & rest operators](chapters/02_NEXT_GEN_JS.md#spread--rest-operators)
    8. [Destructuring](chapters/02_NEXT_GEN_JS.md#destructuring)
+   9. [Reference and primitive type refresher](chapters/02_NEXT_GEN_JS.md#reference-and-primitive-type-refresher)
 
 **=====  I'M HERE 👋🏽 =====**
 

@@ -176,3 +176,24 @@ console.log(goodbye + ' ' + name);
 ({ name } = { name: 'Salva', age: '30' });
 console.log(name);
 ```
+
+## Reference and primitive type refresher
+Remembering primitive types: strings, integers...
+
+Reference concept:
+// Using the pointer
+```ecmascript 6
+const person = {
+    name: 'Salva'
+};
+
+const secondPerson = person;
+person.name = 'Salvador';
+console.log(secondPerson);
+
+// Create cloned object
+const thirdPerson = {
+  ...person  
+};
+console.log(thirdPerson);
+```
