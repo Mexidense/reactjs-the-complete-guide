@@ -83,3 +83,31 @@ Or if you want to import the whole of the export file you can use `*` and define
 ```js
 import * as utilities from './example.js'
 ```
+
+## Classes
+Classes have properties and methods. Classes support inheritance too. Example:
+```js
+class Human {
+    constructor(gender) {
+        this.gender = gender;
+    }
+    
+    printGender() {
+        console.log(this.gender);
+    }
+}
+class Person extends Human {
+    constructor() {
+        super('male');
+        this.name = 'Salva';
+    }
+    
+    printMyName() {
+        console.log(this.name);
+    }
+    
+    const person = new Person();
+    person.printMyName();
+    person.printGender();
+}
+```
