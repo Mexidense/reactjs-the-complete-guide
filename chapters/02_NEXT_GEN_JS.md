@@ -113,7 +113,7 @@ person.printGender();
 
 ## Classes, properties and methods
 In Next generation JS, you can use properties/methods like "attached" variables inside classes/objects:
-```ecmascript 6
+```js
 class Human {
     gender = 'X';
 
@@ -139,7 +139,7 @@ person.printGender();
 ## Spread & rest operators
 
 Spread: Used to split up array element or object properties:
-```ecmascript 6
+```js
 // Arrays elements
 const numbers = [1, 2, 3];
 const newNumbers = [...numbers, 4, 5];
@@ -157,7 +157,7 @@ const otherPerson = {
 console.log(otherPerson); // It returns both properties
 ```
 Rest: Used to merge a list of functions arguments into an array:
-```ecmascript 6
+```js
 const filter = (...args) => {
     return args.filter(element => element === 1);
 }
@@ -167,7 +167,7 @@ console.log(filter(1, 2, 3)); // It just returns element number one
 
 ## Destructuring
 Extract array elements or object properties and store them in variables.
-```ecmascript 6
+```js
 // Array elements
 [, goodbye, name] = ['Hello', 'Bye', 'Salva'];
 console.log(goodbye + ' ' + name);
@@ -182,7 +182,7 @@ Remembering primitive types: strings, integers...
 
 Reference concept:
 // Using the pointer
-```ecmascript 6
+```js
 let person = {
   name: 'Salva'
 };
@@ -205,7 +205,7 @@ console.log(thirdPerson);
 
 ## Refreshing Array functions
 In this section, we refresh concepts and usage of functions like: map function.
-```ecmascript 6
+```js
 const numberList = [1, 2, 3];
 const multiplyNumbers = numberList.map((number) => {
    return number * 2; 
