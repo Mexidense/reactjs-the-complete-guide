@@ -16,11 +16,10 @@ This repository comes from some notes that I've taken in the e-learning course: 
    8. [Destructuring](chapters/02_NEXT_GEN_JS.md#destructuring)
    9. [Reference and primitive type refresher](chapters/02_NEXT_GEN_JS.md#reference-and-primitive-type-refresher)
    10. [Refreshing Array functions](chapters/02_NEXT_GEN_JS.md#refreshing-array-functions)
+3. [The basics](chapters/03_BASICS.md)
+   1. [Module introduction](chapters/03_BASICS.md#module-introduction)
+      **=====  I'M HERE 👋🏽 =====**
 
-**=====  I'M HERE 👋🏽 =====**
-
-
-3. The basics
 4. Debugging
 5. Styling components
 6. Component Deep Dive
