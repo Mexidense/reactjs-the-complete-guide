@@ -105,9 +105,8 @@ class Person extends Human {
     printMyName() {
         console.log(this.name);
     }
-    
-    const person = new Person();
-    person.printMyName();
-    person.printGender();
 }
+const person = new Person();
+person.printMyName();
+person.printGender();
 ```
