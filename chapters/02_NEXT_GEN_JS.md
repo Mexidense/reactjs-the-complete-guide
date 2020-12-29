@@ -51,3 +51,35 @@ const myFunction = (fistArgument, secondArgument) => {
 // Short arrow function version with two arguments
 const myFunction = (fistArgument, secondArgument) => fistArgument * secondArgument
 ```
+
+## Export & imports (modules)
+
+The main idea is import a piece of content from a JS file to another JS file.
+The default way is:
+```js
+// Export a module (person.js)
+const person {
+    name: 'Max'
+}
+export default person
+// And to import the module (e.g. app.js)
+import person from './person.js' 
+```
+However, if you want to import statements you can use:
+```js
+// Export a variable or function from a file (example.js)
+export const myFunction = () => 'hello'
+export const baseData = 10;
+
+// Import from another file (e.g. app.js)
+import { myFunction } from './example.js'
+import { baseData } from './example.js'
+```
+Take into account that the import keyword is used from the export keyword definition, but you can change the import keyword as an alias:
+```js
+import { baseData as base } from './example.js'
+```
+Or if you want to import the whole of the export file you can use `*` and define an alias.
+```js
+import * as utilities from './example.js'
+```
