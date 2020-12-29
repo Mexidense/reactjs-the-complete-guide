@@ -202,3 +202,13 @@ const thirdPerson = {
 person.name = 'Salvador';
 console.log(thirdPerson);
 ```
+
+## Refreshing Array functions
+In this section, we refresh concepts and usage of functions like: map function.
+```ecmascript 6
+const numberList = [1, 2, 3];
+const multiplyNumbers = numberList.map((number) => {
+   return number * 2; 
+});
+console.log(numberList, multiplyNumbers);
+```
