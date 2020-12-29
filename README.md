@@ -12,6 +12,7 @@ This repository comes from some notes that I've taken in the e-learning course: 
    4. [Export & imports (modules)](chapters/02_NEXT_GEN_JS.md#export--imports-modules)
    5. [Classes](chapters/02_NEXT_GEN_JS.md#classes)
    6. [Classes, properties and methods](chapters/02_NEXT_GEN_JS.md#classes-properties-and-methods)
+   7. [Spread & rest operators](chapters/02_NEXT_GEN_JS.md#spread--rest-operators)
 
 **=====  I'M HERE 👋🏽 =====**
 

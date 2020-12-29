@@ -6,7 +6,7 @@ This chapter is about new features of next generation JavaScript. This chapter i
 
 ## Understanding "let" and "const"
 
-`var` keyword comes to declare whatever variable. 
+`var` keyword comes to declare whatever variable.
 `let` is for variable values.
 `const` is for constant values.
 
@@ -26,8 +26,8 @@ It's a new way to create JavaScript functions.
         // to-do
     }
     ```
-Why is it the difference? 
-With that kind of function you can avoid failures with the `this` keyword  
+Why is it the difference?
+With that kind of function you can avoid failures with the `this` keyword
 
 What happens with the argument or parameters?
 ```js
@@ -45,7 +45,7 @@ const myFunction = fistArgument => fistArgument
 // Arrow function with two arguments
 const myFunction = (fistArgument, secondArgument) => {
     // to-do with first and second argument
-  return fistArgument + ' ' + secondArgument //e.g. concatenate string
+    return fistArgument + ' ' + secondArgument //e.g. concatenate string
 }
 
 // Short arrow function version with two arguments
@@ -91,7 +91,7 @@ class Human {
     constructor(gender) {
         this.gender = gender;
     }
-    
+
     printGender() {
         console.log(this.gender);
     }
@@ -101,7 +101,7 @@ class Person extends Human {
         super('male');
         this.name = 'Salva';
     }
-    
+
     printMyName() {
         console.log(this.name);
     }
@@ -112,11 +112,11 @@ person.printGender();
 ```
 
 ## Classes, properties and methods
-In Next generation JS, you can use properties/methods like "attached" variables inside classes/objects: 
+In Next generation JS, you can use properties/methods like "attached" variables inside classes/objects:
 ```ecmascript 6
 class Human {
     gender = 'X';
-    
+
     printGender = () => console.log(this.gender)
 }
 class Person extends Human {
@@ -125,7 +125,7 @@ class Person extends Human {
         name = 'Salva';
         gender = 'male';
     }
-    
+
     printMyName = () => {
         console.log(this.name);
     }
@@ -134,4 +134,33 @@ class Person extends Human {
 const person = new Person();
 person.printMyName();
 person.printGender();
+```
+
+## Spread & rest operators
+
+Spread: Used to split up array element or object properties:
+```ecmascript 6
+// Arrays elements
+const numbers = [1, 2, 3];
+const newNumbers = [...numbers, 4, 5];
+
+// Object properties
+const person = {
+    name: 'Salva'
+};
+
+const otherPerson = {
+    ...person,
+    age: 30
+};
+
+console.log(otherPerson); // It returns both properties
+```
+Rest: Used to merge a list of functions arguments into an array:
+```ecmascript 6
+const filter = (...args) => {
+    return args.filter(element => element === 1);
+}
+
+console.log(filter(1, 2, 3)); // It just returns element number one
 ```
