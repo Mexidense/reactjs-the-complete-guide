@@ -183,8 +183,8 @@ Remembering primitive types: strings, integers...
 Reference concept:
 // Using the pointer
 ```ecmascript 6
-const person = {
-    name: 'Salva'
+let person = {
+  name: 'Salva'
 };
 
 const secondPerson = person;
@@ -192,8 +192,13 @@ person.name = 'Salvador';
 console.log(secondPerson);
 
 // Create cloned object
-const thirdPerson = {
-  ...person  
+person = {
+  name: 'Salva'
 };
+
+const thirdPerson = {
+  ...person
+};
+person.name = 'Salvador';
 console.log(thirdPerson);
 ```
