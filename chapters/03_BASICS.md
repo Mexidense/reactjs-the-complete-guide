@@ -56,5 +56,116 @@ The other way to create a component is using the method `createElement` of the `
 
 ## Creating a functional component
 
-We've created the Person functional component: [examples/src/Person/Person.js](/examples/src/Person/Person.js)
+We've created the Person functional component.
 
+```js
+import React from 'react';
+
+const person = () => {
+    return <p>I'm a Person!</p>
+}
+
+export default person;
+```
+
+
+
+## Outputting dynamic content
+We've created the dynamic variables: [examples/src/Person/Person.js](/examples/src/Person/Person.js)
+
+```js
+import React from 'react';
+
+const person = () => {
+  const years = Math.floor(Math.random() * 30);
+  return <p>I'm a Person!, I am { years } years old!</p>
+}
+
+export default person;
+```
+
+## Working with props (properties)
+```js
+import React from 'react';
+
+const person = (props) => {
+    return <p>I'm { props.name }!, I am { props.age } years old!</p>
+}
+
+export default person;
+```
+
+```jsx
+<Person name="Salva" age="30"/>
+<Person name="Teodoro" age="28">My hobby is: Dancing</Person>
+<Person name="Eustaquio" age="25"/>
+```
+
+## Understanding the "children" props
+```js
+import React from 'react';
+
+const person = (props) => {
+    return (
+        <div>
+            <p>I'm { props.name }!, I am { props.age } years old!</p>
+            <p>{ props.children }</p>
+        </div>
+    );
+}
+
+export default person;
+```
+
+```js
+import React from 'react';
+import './App.css';
+import Person from './Person/Person';
+
+function App() {
+  return (
+      <div className="App">
+        <h1>Hello word!</h1>
+        <p>Hello again!</p>
+        <Person name="Salva" age="30"/>
+        <Person name="Teodoro" age="28">My hobby is: Dancing</Person>
+        <Person name="Eustaquio" age="25"/>
+      </div>
+  );
+}
+
+export default App;
+```
+
+## Understanding & using state
+
+```js
+import React, {Component} from 'react';
+import './App.css';
+import Person from './Person/Person';
+
+class App extends Component {
+  state = {
+    persons: [
+      { name: 'Salva', age: 30 },
+      { name: 'Teodoro', age: 28 },
+      { name: 'Eustaquio', age: 25 }
+    ]
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Hello word!</h1>
+        <p>Hello again!</p>
+        <button>Switch name</button>
+        <Person name={ this.state.persons[0].name } age={ this.state.persons[0].age }/>
+        <Person name={ this.state.persons[1].name } age={ this.state.persons[1].age }/>
+        <Person name={ this.state.persons[2].name } age={ this.state.persons[2].age }/>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
