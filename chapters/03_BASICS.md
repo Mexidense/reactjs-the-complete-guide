@@ -56,3 +56,5 @@ The other way to create a component is using the method `createElement` of the `
 
 ## Creating a functional component
 
+We've created the Person functional component: [examples/src/Person/Person.js](/examples/src/Person/Person.js)
+
