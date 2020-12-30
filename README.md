@@ -18,6 +18,9 @@ This repository comes from some notes that I've taken in the e-learning course: 
    10. [Refreshing Array functions](chapters/02_NEXT_GEN_JS.md#refreshing-array-functions)
 3. [The basics](chapters/03_BASICS.md)
    1. [Module introduction](chapters/03_BASICS.md#module-introduction)
+   2. [The build workflow](chapters/03_BASICS.md#the-build-workflow)
+   3. [Using create React App](chapters/03_BASICS.md#using-create-react-app)
+      
       **=====  I'M HERE 👋🏽 =====**
 
 4. Debugging
