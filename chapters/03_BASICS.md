@@ -29,3 +29,6 @@ How should use a build workflow?
     npm run start
   ```
 - Go to the browser: http://locahost:3000
+
+## Understanding the folder structure
+Taking a look the main folders and cleaning & custom the project.
