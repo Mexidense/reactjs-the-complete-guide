@@ -68,8 +68,6 @@ const person = () => {
 export default person;
 ```
 
-
-
 ## Outputting dynamic content
 We've created the dynamic variables: [examples/src/Person/Person.js](/examples/src/Person/Person.js)
 
@@ -137,7 +135,7 @@ function App() {
 export default App;
 ```
 
-## Understanding & using state
+## Understanding and using state
 
 ```js
 import React, {Component} from 'react';

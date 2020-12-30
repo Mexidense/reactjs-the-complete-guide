@@ -20,8 +20,18 @@ This repository comes from some notes that I've taken in the e-learning course: 
    1. [Module introduction](chapters/03_BASICS.md#module-introduction)
    2. [The build workflow](chapters/03_BASICS.md#the-build-workflow)
    3. [Using create React App](chapters/03_BASICS.md#using-create-react-app)
+   4. [Understanding the folder structure](chapters/03_BASICS.md#understanding-the-folder-structure)
+   5. [Understanding component basics](chapters/03_BASICS.md#understanding-component-basics)
+   6. [Understanding JSX](chapters/03_BASICS.md#understanding-jsx)
+   7. [JSX restrictions](chapters/03_BASICS.md#jsx-restrictions)
+   8. [Creating a functional component](chapters/03_BASICS.md#creating-a-functional-component)
+   9. [Outputting dynamic content](chapters/03_BASICS.md#outputting-dynamic-content)
+   10. [Working with props (properties)](chapters/03_BASICS.md#working-with-props-properties)
+   11. [Understanding the "children" props](chapters/03_BASICS.md#understanding-the-children-props)
+   12. [Understanding & using state](chapters/03_BASICS.md#understanding-and-using-state)
       
-      **=====  I'M HERE 👋🏽 =====**
+
+**=====  I'M HERE 👋🏽 =====**
 
 4. Debugging
 5. Styling components
