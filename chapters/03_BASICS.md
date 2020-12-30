@@ -52,3 +52,7 @@ The other way to create a component is using the method `createElement` of the `
 
 ## JSX restrictions
 
+- You have to add the components inside main `div` component
+
+## Creating a functional component
+
