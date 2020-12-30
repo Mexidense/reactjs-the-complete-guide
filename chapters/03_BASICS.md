@@ -32,3 +32,23 @@ How should use a build workflow?
 
 ## Understanding the folder structure
 Taking a look the main folders and cleaning & custom the project.
+
+
+## Understanding component basics
+
+How to create a component?
+There are two ways to create a components:
+One of them is:
+- Create a class which extends from React Component class.  
+- Inside the class you have to create a render method with JSX component (like HTML DOM).
+- Finally, export the class. 
+
+## Understanding JSX
+
+The other way to create a component is using the method `createElement` of the `React` class.
+- 1st argument: HTML element type
+- 2nd argument: configuration JS object
+- 3rd argument: Children object
+
+## JSX restrictions
+
