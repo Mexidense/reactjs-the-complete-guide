@@ -340,3 +340,35 @@ switchNameHandler = (newName) => {
   age={ this.state.persons[1].age }
   click={this.switchNameHandler.bind(this, 'Salvador from stateless component')}/>
 ```
+
+## Adding two-way binding
+```js
+// Add a input text and add onChange methods to create a handler on the stateful component.
+const person = (props) => {
+  return (
+    <div>
+      <p onClick={props.click}>I'm {props.name}!, I am {props.age} years old!</p>
+      <p>{props.children}</p>
+      <input type="text" onChange={props.changed} value={props.name}/>
+    </div>
+  );
+}
+
+// Handler:
+nameChangedHandler = (event) => {
+  this.setState({
+    persons: [
+      {name: 'Salva', age: 30},
+      {name: event.target.value, age: 99},
+      {name: 'Eustaquio', age: 18}
+    ]
+  });
+}
+
+// Passing method reference
+<Person
+  name={ this.state.persons[1].name }
+  age={ this.state.persons[1].age }
+  click={this.switchNameHandler.bind(this, 'Salvador from stateless component')}
+  changed={this.nameChangedHandler}/>
+```
