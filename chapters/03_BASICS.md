@@ -397,3 +397,25 @@ Steps:
     import './Person.css';
   ```
 
+## Working inline styles
+
+- Create a JS object with styles:
+```js
+const style = {
+  backgroundColor: 'white',
+  font: 'inherit',
+  border: '1px solid blue',
+  padding: '8px',
+  cursor: 'pointer'
+};
+```
+
+- Add style to component:
+```js
+<button
+  style={style}
+  onClick={this.switchNameHandler.bind(this, 'Salvador from button')}>Switch name
+</button>
+```
+
+
