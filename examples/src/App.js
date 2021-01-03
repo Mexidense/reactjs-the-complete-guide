@@ -12,10 +12,10 @@ class App extends Component {
     otherState: 'some other value'
   };
 
-  switchNameHandler = () => {
+  switchNameHandler = (newName) => {
     this.setState({
       persons: [
-        {name: 'Salvador', age: 30},
+        {name: newName, age: 30},
         {name: 'Teodoro', age: 28},
         {name: 'Eustaquio', age: 18}
       ]
@@ -27,10 +27,19 @@ class App extends Component {
       <div className="App">
         <h1>Hello word!</h1>
         <p>Hello again!</p>
-        <button onClick={this.switchNameHandler}>Switch name</button>
-        <Person name={ this.state.persons[0].name } age={ this.state.persons[0].age }/>
-        <Person name={ this.state.persons[1].name } age={ this.state.persons[1].age }/>
-        <Person name={ this.state.persons[2].name } age={ this.state.persons[2].age }/>
+        <button
+          onClick={this.switchNameHandler.bind(this, 'Salvador from button')}>Switch name
+        </button>
+        <Person
+          name={ this.state.persons[0].name }
+          age={ this.state.persons[0].age }/>
+        <Person
+          name={ this.state.persons[1].name }
+          age={ this.state.persons[1].age }
+          click={this.switchNameHandler.bind(this, 'Salvador from stateless component')}/>
+        <Person
+          name={ this.state.persons[2].name }
+          age={ this.state.persons[2].age }/>
       </div>
     );
   }

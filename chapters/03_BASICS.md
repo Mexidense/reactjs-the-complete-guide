@@ -296,3 +296,47 @@ const person = (props) => {
   );
 }
 ```
+
+## Passing method references between components
+
+From stateful component:
+```js
+ <Person
+  name={ this.state.persons[1].name }
+  age={ this.state.persons[1].age }
+  click={this.switchNameHandler}/>
+```
+
+On the stateless component:
+```js
+return (
+  <div>
+    <p onClick={props.click}>I'm {props.name}!, I am {props.age} years old!</p>
+    <p>{props.children}</p>
+  </div>
+);
+```
+
+If you want to pass a parameter to `onClick` handler, you can set the argument to the function and use the `bind` method to calling it.
+```js
+// Add new argument `newName`.
+switchNameHandler = (newName) => {
+  this.setState({
+    persons: [
+      {name: newName, age: 30},
+      {name: 'Teodoro', age: 28},
+      {name: 'Eustaquio', age: 18}
+    ]
+  })
+}
+
+// use bind function
+<button
+        onClick={this.switchNameHandler.bind(this, 'Salvador from button')}>Switch name
+</button>
+
+<Person
+  name={ this.state.persons[1].name }
+  age={ this.state.persons[1].age }
+  click={this.switchNameHandler.bind(this, 'Salvador from stateless component')}/>
+```
