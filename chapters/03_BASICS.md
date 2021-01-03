@@ -167,3 +167,44 @@ class App extends Component {
 
 export default App;
 ```
+
+## Handling events with methods
+
+```js
+// Create JSX element:
+<button onClick={this.switchNameHandler}>Switch name</button>
+
+// Create the event function:
+switchNameHandler = () => {
+  console.log('It was clicked');
+}
+```
+
+## Which events can you listen to?
+
+React has supported events, they're listened to here: https://reactjs.org/docs/events.html#supported-events
+
+## Manipulating the state
+
+We can use the setState method in order to modify the states/pros:
+```js
+switchNameHandler = () => {
+    // this.state.persons[0].name = 'Salvador'; // DON'T DO THIS
+    this.setState({
+      persons: [
+        {name: 'Salvador', age: 30},
+        {name: 'Teodoro', age: 28},
+        {name: 'Eustaquio', age: 18}
+      ]
+    })
+  }
+```
+
+## Using the useState() Hook for state manipulation
+
+- Add the import:
+  ```js
+  import React, { Component, useState } from 'react';
+  ```
+- Use functional components
+
