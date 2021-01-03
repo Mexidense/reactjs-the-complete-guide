@@ -372,3 +372,28 @@ nameChangedHandler = (event) => {
   click={this.switchNameHandler.bind(this, 'Salvador from stateless component')}
   changed={this.nameChangedHandler}/>
 ```
+
+## Adding styling with stylesheets
+
+Steps:
+- Create a css file
+- Add new styles
+  ```css
+    .Person {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+    }
+  ```
+- Add className to main div
+  ```js
+    <div className="Person">
+  ```
+- Import css file on component JSX.
+  ```js
+    import './Person.css';
+  ```
+
