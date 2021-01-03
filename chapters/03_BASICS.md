@@ -249,3 +249,50 @@ const App = props => {
 
 export default App;
 ```
+
+## Stateless vs stateful component
+
+Stateful component is a component that manages states.
+```js
+const App = props => {
+  const [personsState, setPersonsState] = useState({
+    persons: [
+      { name: 'Salva', age: 30 },
+      { name: 'Teodoro', age: 28 },
+      { name: 'Eustaquio', age: 25 }
+    ]
+  });
+
+  const switchNameHandler = () => {
+    setPersonsState({
+      persons: [
+        {name: 'Salvador', age: 30},
+        {name: 'Teodoro', age: 28},
+        {name: 'Eustaquio', age: 18}
+      ]
+    })
+  }
+
+  return (
+    <div className="App">
+      <h1>Hello word!</h1>
+      <p>Hello again!</p>
+      <button onClick={switchNameHandler}>Switch name</button>
+      <Person name={ personsState.persons[0].name } age={ personsState.persons[0].age }/>
+      <Person name={ personsState.persons[1].name } age={ personsState.persons[1].age }/>
+      <Person name={ personsState.persons[2].name } age={ personsState.persons[2].age }/>
+    </div>
+  );
+}
+```
+Stateless component is a component that doesn't have an internal logic or just have a presentational components.
+```js
+const person = (props) => {
+  return (
+    <div>
+      <p>I'm {props.name}!, I am {props.age} years old!</p>
+      <p>{props.children}</p>
+    </div>
+  );
+}
+```
