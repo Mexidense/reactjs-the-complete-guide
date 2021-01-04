@@ -48,7 +48,9 @@ This repository comes from some notes that I've taken in the e-learning course: 
    6. [Updating state immutably](chapters/04_LISTS_CONDITIONALS.md#updating-state-immutably)
    7. [List and keys](chapters/04_LISTS_CONDITIONALS.md#list-and-keys)
    8. [Flexible lists](chapters/04_LISTS_CONDITIONALS.md#flexible-lists)
-
+5. [Styling React components and elements](chapters/05_STYLING_COMPONENTS_ELEMENTS.md)
+   1. [Module introduction](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#module-introduction)
+   
 **=====  I'M HERE 👋🏽 =====**
 
 4. Debugging
