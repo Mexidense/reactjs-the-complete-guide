@@ -29,8 +29,17 @@ This repository comes from some notes that I've taken in the e-learning course: 
    10. [Working with props (properties)](chapters/03_BASICS.md#working-with-props-properties)
    11. [Understanding the "children" props](chapters/03_BASICS.md#understanding-the-children-props)
    12. [Understanding & using state](chapters/03_BASICS.md#understanding-and-using-state)
-      
-
+   13. [Handling events with methods](chapters/03_BASICS.md#handling-events-with-methods)
+   14. [Which events can you listen to?](chapters/03_BASICS.md#which-events-can-you-listen-to)
+   15. [Manipulating the state](chapters/03_BASICS.md#manipulating-the-state)
+   16. [Using the useState() Hook for state manipulation](chapters/03_BASICS.md#using-the-usestate-hook-for-state-manipulation)
+   17. [Stateless vs stateful component](chapters/03_BASICS.md#stateless-vs-stateful-component)
+   18. [Passing method references between components](chapters/03_BASICS.md#passing-method-references-between-components)
+   19. [Adding two-way binding](chapters/03_BASICS.md#adding-two-way-binding)
+   20. [Adding styling with stylesheets](chapters/03_BASICS.md#adding-styling-with-stylesheets)
+   21. [Working inline styles](chapters/03_BASICS.md#working-inline-styles)
+   22. [Task 01](tasks/01task/README.md)
+   
 **=====  I'M HERE 👋🏽 =====**
 
 4. Debugging
