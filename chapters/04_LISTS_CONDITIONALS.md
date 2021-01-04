@@ -69,3 +69,23 @@ We use the `if conditional` on the normal statement outside `render` method, it'
   </button>
   { persons }
 ```
+
+## Outputting lists
+
+In this point, we're going to see how to get out source data. We can iterate each element from person data list.
+For that we use the `map` function:
+```js
+if (this.state.showPersons) {
+  persons = (
+    <div >
+      { this.state.persons.map(person => {
+        return <Person
+          name={ person.name }
+          age={ person.age }
+          click={this.switchNameHandler.bind(this, 'Salvador from stateless component')}
+          changed={this.nameChangedHandler}/>
+      })};
+    </div>
+  );
+}
+```
