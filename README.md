@@ -39,7 +39,9 @@ This repository comes from some notes that I've taken in the e-learning course: 
    20. [Adding styling with stylesheets](chapters/03_BASICS.md#adding-styling-with-stylesheets)
    21. [Working inline styles](chapters/03_BASICS.md#working-inline-styles)
    22. [Task 01](tasks/01task/README.md)
-   
+4. [Working with lists and conditionals](chapters/04_LISTS_CONDITIONALS.md)
+   1. [Module introduction](chapters/04_LISTS_CONDITIONALS.md#module-introduction)
+
 **=====  I'M HERE 👋🏽 =====**
 
 4. Debugging
