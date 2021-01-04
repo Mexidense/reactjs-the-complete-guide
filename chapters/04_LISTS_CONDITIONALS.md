@@ -89,3 +89,31 @@ if (this.state.showPersons) {
   );
 }
 ```
+
+## List & state
+
+- Create a method to erase elements from the list:
+  ```js
+  deletePersonHandler = (personIndex) => {
+    const persons = this.state.persons;
+    persons.splice(personIndex, 1);
+    this.setState({ persons: persons });
+  }
+  ```
+- Add the handler to element on the list
+  ```js
+  <div >
+    { this.state.persons.map((person, index) => {
+      return <Person
+        name={ person.name }
+        age={ person.age }
+        click={ () => this.deletePersonHandler(index) }
+        changed={this.nameChangedHandler}/>
+    })}
+  </div>
+  ```
+Now when you click inside each Person component, it'll erase from the list and then from the visual components because the state was modified.
+
+
+## Updating state immutably
+
