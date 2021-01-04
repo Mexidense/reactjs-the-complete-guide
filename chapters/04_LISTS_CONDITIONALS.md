@@ -117,3 +117,14 @@ Now when you click inside each Person component, it'll erase from the list and t
 
 ## Updating state immutably
 
+Don't do this:
+```js
+const persons = this.state.persons;
+```
+Do this:
+```js
+const persons = [...this.state.persons];
+// or
+const persons = this.state.persons.slice();
+```
+
