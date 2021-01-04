@@ -13,4 +13,24 @@ style.backgroundColor = 'red';
 ```
 
 # Setting class names dynamically
+- Create CSS classes:
+    ```css
+    .red {
+      color: red;
+    }
+    
+    .bold {
+      font-weight: bold;
+    }
+    ```
+- Create a string with these classes
+    ```js
+    let classes = ['red', 'bold'].join(' ');
+    ```
+- Add classes variable to component to style
+    ```js
+    <p className={classes}>Hello again!</p>
+    ```
+
+Using JS arrays/object you can set whatever you want inside each component.
 
