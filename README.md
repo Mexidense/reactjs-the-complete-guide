@@ -50,6 +50,11 @@ This repository comes from some notes that I've taken in the e-learning course: 
    8. [Flexible lists](chapters/04_LISTS_CONDITIONALS.md#flexible-lists)
 5. [Styling React components and elements](chapters/05_STYLING_COMPONENTS_ELEMENTS.md)
    1. [Module introduction](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#module-introduction)
+   2. [Setting styles dynamically](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#setting-styles-dynamically)
+   3. [Setting class names dynamically](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#setting-class-names-dynamically)
+   4. [Adding and using Radium](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#adding-and-using-radium)
+   5. [Using Radium for Media queries](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#using-radium-for-media-queries)
+   6. [Introducing Styled components](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#introducing-styled-components)
    
 **=====  I'M HERE 👋🏽 =====**
 
