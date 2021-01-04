@@ -153,3 +153,35 @@ The key props is an important property that expect to define a unique identify. 
       key={ person.id }/>
   ```
   
+## Flexible  lists
+
+- Search the index of the element to modify.
+- Get the index and modify the element of the array with that key.
+- Finally, set state:
+  ```js
+  nameChangedHandler = ( event, id ) => {
+    const personIndex = this.state.persons.findIndex(p => {
+      return p.id === id;
+  
+    });
+  
+    const person = {
+      ...this.state.persons[personIndex]
+    };
+    person.name = event.target.value;
+    const persons = [...this.state.persons];
+    persons[personIndex] = person;
+  
+    this.setState({ persons: persons });
+  }
+  ```
+- Add the new parameter to event->handler
+  ```js
+  <Person
+    name={ person.name }
+    age={ person.age }
+    click={ () => this.deletePersonHandler(index) }
+    changed={ (event) => this.nameChangedHandler(event, person.id) } //Here
+    key={ person.id }/>
+  ```
+  
