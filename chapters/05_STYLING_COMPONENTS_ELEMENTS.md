@@ -34,3 +34,39 @@ style.backgroundColor = 'red';
 
 Using JS arrays/object you can set whatever you want inside each component.
 
+## Adding and using Radium
+
+React doesn't have pseudo selector by default if we want to add pseudo selectors on styles like `:hover` we can install Radium.
+
+- Install Radium:
+  ```bash
+  npm install --save radium
+  ```
+- Import on the file you want to use it:
+  ```js
+  import Radium from 'radium';
+  // enable it
+  export default Radium(App);
+  ```
+- Use selector:
+  ```js
+  const style = {
+      backgroundColor: 'green',
+      color: 'white',
+      font: 'inherit',
+      border: '1px solid blue',
+      padding: '8px',
+      cursor: 'pointer',
+      ':hover': {
+        backgroundColor: 'lightgreen',
+        color: 'black'
+      }
+    };
+  ```
+- If we want to reassign values:
+  ```js
+  style[':hover'] = {
+    backgroundColor: 'salmon',
+    color: 'black'
+  };
+  ```
