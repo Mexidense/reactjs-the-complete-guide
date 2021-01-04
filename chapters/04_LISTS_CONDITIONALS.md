@@ -128,3 +128,28 @@ const persons = [...this.state.persons];
 const persons = this.state.persons.slice();
 ```
 
+## List and keys
+
+The key props is an important property that expect to define a unique identify. For that we did:
+- Add a key property to person object on states:
+  ```js
+  state = {
+    persons: [
+      { id: 'a0e84ab1-8227-4211-96a0-326f141f99ae', name: 'Salva', age: 30 },
+      { id: '24037216-4661-49f2-a226-5f9fee64e68c', name: 'Teodoro', age: 28 },
+      { id: '8917b06e-bc79-4ad7-b540-7a46ef4dad58', name: 'Eustaquio', age: 25 }
+    ],
+    otherState: 'some other value',
+    showPersons: false
+  };
+  ```
+- Add key property to Person component:
+  ```js
+    return <Person
+      name={ person.name }
+      age={ person.age }
+      click={ () => this.deletePersonHandler(index) }
+      changed={ this.nameChangedHandler }
+      key={ person.id }/>
+  ```
+  
