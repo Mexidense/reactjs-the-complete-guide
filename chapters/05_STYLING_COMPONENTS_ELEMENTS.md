@@ -70,3 +70,47 @@ React doesn't have pseudo selector by default if we want to add pseudo selectors
     color: 'black'
   };
   ```
+
+## Using Radium for Media queries
+
+- Normally, we can use media queries on CSS files like:
+  ```css
+  @media (min-width: 500px) {
+    .Person {
+      width: 450px;
+    }
+  }
+  ```
+
+- However, if we can apply media queries dynamically, we can use Radium creating a const or variable:
+  ```js
+  const style = {
+    '@media (minWidth: 500px)': {
+      width: '450px'
+    }
+  };
+ ```
+- Remember to import Radium library.
+  ```js
+  import Radium from 'radium';
+  ```
+
+- We also need to use StyleRoot element as a wrapper on the used component:
+  ```js
+  <StyleRoot>
+    <div className="App">
+      <h1>Hello word!</h1>
+      <p className={classes.join(' ')}>Hello again!</p>
+      <button
+              style={style}
+              onClick={this.togglePersonsHandler}>Toggle persons
+      </button>
+      { persons }
+    </div>
+  </StyleRoot>
+  ```
+
+- To use the wrapper you should add the Style component from Radium library:
+  ```js
+  import Radium, { StyleRoot } from 'radium';
+  ```
