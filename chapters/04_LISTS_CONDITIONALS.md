@@ -153,7 +153,7 @@ The key props is an important property that expect to define a unique identify. 
       key={ person.id }/>
   ```
   
-## Flexible  lists
+## Flexible lists
 
 - Search the index of the element to modify.
 - Get the index and modify the element of the array with that key.

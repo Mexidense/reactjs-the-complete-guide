@@ -41,6 +41,13 @@ This repository comes from some notes that I've taken in the e-learning course: 
    22. [Task 01](tasks/01task/README.md)
 4. [Working with lists and conditionals](chapters/04_LISTS_CONDITIONALS.md)
    1. [Module introduction](chapters/04_LISTS_CONDITIONALS.md#module-introduction)
+   2. [Rendering content conditionally](chapters/04_LISTS_CONDITIONALS.md#rendering-content-conditionally)
+   3. [Handling dynamic content "The JavaScript way"](chapters/04_LISTS_CONDITIONALS.md#handling-dynamic-content-the-javascript-way)
+   4. [Outputting lists](chapters/04_LISTS_CONDITIONALS.md#outputting-lists)
+   5. [List & state](chapters/04_LISTS_CONDITIONALS.md#list--state)
+   6. [Updating state immutably](chapters/04_LISTS_CONDITIONALS.md#updating-state-immutably)
+   7. [List and keys](chapters/04_LISTS_CONDITIONALS.md#list-and-keys)
+   8. [Flexible lists](chapters/04_LISTS_CONDITIONALS.md#flexible-lists)
 
 **=====  I'M HERE 👋🏽 =====**
 
