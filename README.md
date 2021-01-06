@@ -5,6 +5,8 @@ This repository comes from some notes that I've taken in the e-learning course: 
 # Table of contents
 
 1. [Getting started](/chapters/01_GETTING_STARTED.md)
+   
+
 2. [Refreshing Next generation JS](/chapters/02_NEXT_GEN_JS.md)
    1. [Module introduction](/chapters/02_NEXT_GEN_JS.md#module-introduction)
    2. [Understanding "let" and "const"](/chapters/02_NEXT_GEN_JS.md#understanding-let-and-const)
@@ -16,6 +18,8 @@ This repository comes from some notes that I've taken in the e-learning course: 
    8. [Destructuring](chapters/02_NEXT_GEN_JS.md#destructuring)
    9. [Reference and primitive type refresher](chapters/02_NEXT_GEN_JS.md#reference-and-primitive-type-refresher)
    10. [Refreshing Array functions](chapters/02_NEXT_GEN_JS.md#refreshing-array-functions)
+   
+
 3. [The basics](chapters/03_BASICS.md)
    1. [Module introduction](chapters/03_BASICS.md#module-introduction)
    2. [The build workflow](chapters/03_BASICS.md#the-build-workflow)
@@ -39,6 +43,8 @@ This repository comes from some notes that I've taken in the e-learning course: 
    20. [Adding styling with stylesheets](chapters/03_BASICS.md#adding-styling-with-stylesheets)
    21. [Working inline styles](chapters/03_BASICS.md#working-inline-styles)
    22. [Task 01](tasks/01task/README.md)
+   
+
 4. [Working with lists and conditionals](chapters/04_LISTS_CONDITIONALS.md)
    1. [Module introduction](chapters/04_LISTS_CONDITIONALS.md#module-introduction)
    2. [Rendering content conditionally](chapters/04_LISTS_CONDITIONALS.md#rendering-content-conditionally)
@@ -48,6 +54,8 @@ This repository comes from some notes that I've taken in the e-learning course: 
    6. [Updating state immutably](chapters/04_LISTS_CONDITIONALS.md#updating-state-immutably)
    7. [List and keys](chapters/04_LISTS_CONDITIONALS.md#list-and-keys)
    8. [Flexible lists](chapters/04_LISTS_CONDITIONALS.md#flexible-lists)
+   9. [Task 02](tasks/02task/README.md)
+
 5. [Styling React components and elements](chapters/05_STYLING_COMPONENTS_ELEMENTS.md)
    1. [Module introduction](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#module-introduction)
    2. [Setting styles dynamically](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#setting-styles-dynamically)
@@ -59,6 +67,8 @@ This repository comes from some notes that I've taken in the e-learning course: 
 6. [Debugging React Apps](chapters/06_DEBUGGING_APPS.md)
    1. [Module introduction](chapters/06_DEBUGGING_APPS.md#module-introduction)
    2. [Using error boundaries](chapters/06_DEBUGGING_APPS.md#using-error-boundaries)
+
+
 **=====  I'M HERE 👋🏽 =====**
 
 4. Debugging
