@@ -56,6 +56,8 @@ This repository comes from some notes that I've taken in the e-learning course: 
    5. [Using Radium for Media queries](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#using-radium-for-media-queries)
    6. [Introducing Styled components](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#introducing-styled-components)
    
+6. [Debugging React Apps](chapters/06_DEBUGGING_APPS.md)
+   1. [Module introduction](chapters/06_DEBUGGING_APPS.md#module-introduction)
 **=====  I'M HERE 👋🏽 =====**
 
 4. Debugging
