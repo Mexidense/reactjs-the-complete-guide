@@ -58,6 +58,7 @@ This repository comes from some notes that I've taken in the e-learning course: 
    
 6. [Debugging React Apps](chapters/06_DEBUGGING_APPS.md)
    1. [Module introduction](chapters/06_DEBUGGING_APPS.md#module-introduction)
+   2. [Using error boundaries](chapters/06_DEBUGGING_APPS.md#using-error-boundaries)
 **=====  I'M HERE 👋🏽 =====**
 
 4. Debugging

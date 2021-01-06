@@ -1,5 +1,7 @@
 # Debugging React Apps
 
+## Module introduction
+
 In this module, we're going to discover how you can to debug your React application, how you can read and handle errors.
 
 The main tool to debug an application is the browser developer tool. Also, you can install [React developer tool extension for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=es)
