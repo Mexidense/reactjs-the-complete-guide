@@ -56,6 +56,7 @@ This repository comes from some notes that I've taken in the e-learning course: 
    8. [Flexible lists](chapters/04_LISTS_CONDITIONALS.md#flexible-lists)
    9. [Task 02](tasks/02task/README.md)
 
+
 5. [Styling React components and elements](chapters/05_STYLING_COMPONENTS_ELEMENTS.md)
    1. [Module introduction](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#module-introduction)
    2. [Setting styles dynamically](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#setting-styles-dynamically)
@@ -64,10 +65,15 @@ This repository comes from some notes that I've taken in the e-learning course: 
    5. [Using Radium for Media queries](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#using-radium-for-media-queries)
    6. [Introducing Styled components](chapters/05_STYLING_COMPONENTS_ELEMENTS.md#introducing-styled-components)
    
+   
 6. [Debugging React Apps](chapters/06_DEBUGGING_APPS.md)
    1. [Module introduction](chapters/06_DEBUGGING_APPS.md#module-introduction)
    2. [Using error boundaries](chapters/06_DEBUGGING_APPS.md#using-error-boundaries)
 
+
+7. [Component deep dive](chapters/07_COMPONENT_DEEP_DIVE.md)
+   1. [Module introduction](chapters/07_COMPONENT_DEEP_DIVE.md#module-introduction)
+   
 
 **=====  I'M HERE 👋🏽 =====**
 
