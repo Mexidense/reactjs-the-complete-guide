@@ -14,3 +14,7 @@ We should have the following folder structure:
 
 ## Splitting an App into components
 
+- We decoupled map function into `Persons` component.
+- We decoupled the App header to `Cockpit` component.
+
+
