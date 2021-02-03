@@ -17,4 +17,51 @@ We should have the following folder structure:
 - We decoupled map function into `Persons` component.
 - We decoupled the App header to `Cockpit` component.
 
+## Component lifecycle overview
 
+*Only available in Class-based Components!*
+
+Also called Life-cycle hooks
+
+- Component life-cycle - Creation: 
+  - `constructor(props)` => Set up state
+  - `getDerivedStateFromProps(props, state)` => Sync state
+  - `render()` => Prepare & structure your JSX code
+  - Render child components
+  - `componentDidMount()` => Cause side-effects
+
+- Component life-cycle - Update:
+  - `getDeriverStateFromProps(props, state)` => Sync state to props
+  - `shouldComponentUpdate(nextProps, nextState)` => Decide whether to continue or not
+  - `render()` => Prepare & structure your JSX code
+  - `getSnapshotBeforeUpdate(prevProps, prevState)` => Last-minute DOM operations
+  - `ComponentDidUpdate()` => Cause side-effects
+
+## Using useEffect() in functional components
+
+`useEffect() hook is a function on functional components with the same behaviour of componentDidUpdate on class-bassed components.
+It is run when a component is re-rendered in the life-cicle.
+
+You can import the hook on this way:
+```js
+import React, { useEffect } from 'react';
+```
+
+And you should use that inside component function like this:
+```js
+const Component = (props) => {
+  useEffect(() => {
+    // Something to-do when you want to update a component.
+  });
+
+  return <div>Hello world!</div>
+}
+```
+
+You can add a second argument in order to re-run the useEffect with a condition:
+
+```js
+  useEffect(() => {
+    // It'll re-render the component if the props called `status` changes
+  },[props.status])
+``

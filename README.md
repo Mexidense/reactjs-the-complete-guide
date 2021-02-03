@@ -74,7 +74,9 @@ This repository comes from some notes that I've taken in the e-learning course: 
 7. [Component deep dive](chapters/07_COMPONENT_DEEP_DIVE.md)
    1. [Module introduction](chapters/07_COMPONENT_DEEP_DIVE.md#module-introduction)
    2. [A better project structure](chapters/07_COMPONENT_DEEP_DIVE.md#a-better-project-structure)
-   3. [Splitting an App into components](chapters/07_COMPONENT_DEEP_DIVE.md#splitting-an-app-into-components)  
+   3. [Splitting an App into components](chapters/07_COMPONENT_DEEP_DIVE.md#splitting-an-app-into-components)
+   4. [Component lifecycle overview](chapters/07_COMPONENT_DEEP_DIVE.md#component-lifecycle-overview)
+   5. [Using useEffect() in functional components](chapters/07_COMPONENT_DEEP_DIVE.md#using-useeffect--in-functional-components)
 
 **=====  I'M HERE 👋🏽 =====**
 

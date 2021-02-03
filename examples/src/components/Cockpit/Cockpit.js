@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import classes from './Cockpit.module.css';
 
 const Cockpit = (props) => {
+  useEffect(() => {
+    // Something to-do when you want to update a component.
+  });
+
   const assignedClasses = [];
   let buttonClass = {};
   console.log(classes);
