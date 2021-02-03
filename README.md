@@ -76,7 +76,8 @@ This repository comes from some notes that I've taken in the e-learning course: 
    2. [A better project structure](chapters/07_COMPONENT_DEEP_DIVE.md#a-better-project-structure)
    3. [Splitting an App into components](chapters/07_COMPONENT_DEEP_DIVE.md#splitting-an-app-into-components)
    4. [Component lifecycle overview](chapters/07_COMPONENT_DEEP_DIVE.md#component-lifecycle-overview)
-   5. [Using useEffect() in functional components](chapters/07_COMPONENT_DEEP_DIVE.md#using-useeffect--in-functional-components)
+   5. [Using useEffect() in functional components](chapters/07_COMPONENT_DEEP_DIVE.md#using-useeffect---in-functional-components)
+   6. [Optimizing functional component with React.memo](chapters/07_COMPONENT_DEEP_DIVE.md#optimizing-functional-components-with-react-memo)
 
 **=====  I'M HERE 👋🏽 =====**
 

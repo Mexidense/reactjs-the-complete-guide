@@ -39,7 +39,7 @@ Also called Life-cycle hooks
 
 ## Using useEffect() in functional components
 
-`useEffect() hook is a function on functional components with the same behaviour of componentDidUpdate on class-bassed components.
+`useEffect()` hook is a function on functional components with the same behaviour of componentDidUpdate on class-bassed components.
 It is run when a component is re-rendered in the life-cicle.
 
 You can import the hook on this way:
@@ -64,4 +64,13 @@ You can add a second argument in order to re-run the useEffect with a condition:
   useEffect(() => {
     // It'll re-render the component if the props called `status` changes
   },[props.status])
-``
+``` 
+
+## Optimizing functional component with React.memo()
+
+Memoization is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+
+React has a way to use that technique when you export a component:
+```js
+export default React.memo(Component);
+```
